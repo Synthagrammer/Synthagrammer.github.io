@@ -1,0 +1,72 @@
+/*Font settings*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Poiret One');
+
+.info-window ul {
+	list-style-position: inside;
+	font-family: Poiret One, sans-serif;
+	font-size: 1.3em;
+	text-align: left;
+	padding-left: 5%;
+	padding-bottom: 10px;
+}
+
+.content {
+	position: relative;
+	top:725px;
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.info-window {
+	height: 400px;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+}
+.info-window-white {
+	background-color: white;
+}
+.info-window-grey {
+	background-color: rgb(240,240,240);
+}
+.info-button {
+	border: 2px solid rgb(0, 117, 190);
+	border-radius: 5px;
+	font-family: Poiret One, sans-serif;
+	font-size: 1.3em;
+	padding: 5px 20px;
+}
+.info-button a {
+	text-decoration: none;
+}
+.info-button a:hover {
+	text-decoration: none;
+}
+.pic-window-rpg {
+	height: 400px;
+	background-image: url("../images/physi1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.pic-window-phy {
+	height: 400px;
+	background-image: url("../images/physi2.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.pic-window-dn {
+	height: 400px;
+	background-image: url("../images/Dry-Needling-7.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+/********************/
+
+
+@media only screen and (max-width: 800px){
+	.col-md-8 {display:none;}
+}
