@@ -163,7 +163,7 @@ p {
 }
 
 .info-window {
-	height: 400px;
+	height: 450px;
 	display: flex;
   	flex-direction: column;
 }
@@ -217,21 +217,21 @@ p {
 	text-decoration: none;
 }
 .pic-window-rpg {
-	height: 400px;
+	height: 450px;
 	background-image: url("../images/physi1.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 .pic-window-phy {
-	height: 400px;
+	height: 450px;
 	background-image: url("../images/physi2.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
 .pic-window-dn {
-	height: 400px;
+	height: 450px;
 	background-image: url("../images/Dry-Needling-8.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
